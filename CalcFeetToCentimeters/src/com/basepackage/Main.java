@@ -5,7 +5,13 @@ public class Main {
     public static void main(String[] args) {
         calcFeetAndInchesToCentimeters(-10,5);
 
+        double centimeters = calcFeetAndInchesToCentimeters(6, 0);
+        if (centimeters < 0.0) {
+            System.out.println("Invalid parameters");
+        }
+
         calcFeetAndInchesToCentimeters(157);
+
     }
 
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
@@ -20,12 +26,13 @@ public class Main {
         return centimeters;
     }
 
-    public static double calcFeetAndInchesToCentimeters( double inches) {
+    public static double calcFeetAndInchesToCentimeters(double inches) {
+
         if (inches < 0) {
             return -1;
         }
 
-        double feet = (int) inches /12;
+        double feet = (int) inches / 12;
         double remainingInches = (int) inches % 12;
         System.out.println(inches + " inches is equal to " + feet + "feet and " + remainingInches + "inches");
         return calcFeetAndInchesToCentimeters(feet, remainingInches);
