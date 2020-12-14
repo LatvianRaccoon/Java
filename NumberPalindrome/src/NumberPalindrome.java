@@ -8,6 +8,7 @@ public class NumberPalindrome {
         do {
             currentDigit = copyNumber % 10;
             reversedNumber = (reversedNumber * 10) + currentDigit;
+            System.out.println(reversedNumber);
             copyNumber /= 10;
         } while (copyNumber != 0);
             if (number == reversedNumber) {
