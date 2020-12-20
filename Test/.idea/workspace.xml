@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41d02e61-d60e-40d4-aa70-0896d4c6556a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ParsingValue/ParsingValue.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/NumberToWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlourPacker.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberToWords.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
